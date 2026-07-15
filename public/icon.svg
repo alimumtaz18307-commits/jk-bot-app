@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#shine)"/>
+  <!-- Bot head -->
+  <rect x="136" y="160" width="240" height="200" rx="40" ry="40" fill="white" opacity="0.95"/>
+  <!-- Eyes -->
+  <circle cx="200" cy="240" r="22" fill="#2563eb"/>
+  <circle cx="312" cy="240" r="22" fill="#2563eb"/>
+  <circle cx="208" cy="233" r="8" fill="white"/>
+  <circle cx="320" cy="233" r="8" fill="white"/>
+  <!-- Smile -->
+  <path d="M196 290 Q256 330 316 290" stroke="#2563eb" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Antenna -->
+  <rect x="244" y="110" width="24" height="52" rx="12" fill="white" opacity="0.95"/>
+  <circle cx="256" cy="100" r="18" fill="white" opacity="0.95"/>
+  <circle cx="256" cy="100" r="10" fill="#2563eb"/>
+  <!-- Ears -->
+  <rect x="104" y="200" width="34" height="60" rx="17" fill="white" opacity="0.95"/>
+  <rect x="374" y="200" width="34" height="60" rx="17" fill="white" opacity="0.95"/>
+  <!-- JK text -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="64" font-weight="900" text-anchor="middle" fill="white" opacity="0.95">JK</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "JK Bot AI",
+  "short_name": "JK Bot AI",
+  "description": "Aapka personal Hinglish AI assistant — chat, reminders, aur notes! Made by Mumtaz Ali.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

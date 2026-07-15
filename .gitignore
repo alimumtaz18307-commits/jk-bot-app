@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+*.tsbuildinfo
+*.mjs.timestamp-*
+
+.vite
+.DS_Store
